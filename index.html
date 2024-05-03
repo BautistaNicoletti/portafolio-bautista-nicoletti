@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, user-scalable-no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+
+    <!--Google Icons-->
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!-- IonIcons -->
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>  
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- Icon -->
+    <link rel="icon" href="assets/images/logo/logo-sm.png">
+
+    <meta name="keywords" content="diseñador web, desarrollador web, programador web, frontend developer, programador frontend, bautista, franco, nicoletti, las grutas">
+    <meta name="author" content="Bautista Franco Nicoletti">
+    <meta name="description" content="Mi nombre es Bautista Franco Nicoletti. Empecé a programar a mis 14 años de edad y desde entonces evolucioné como freelancer en el desarrollo web.">
+    <title>Bautista Nicoletti</title>
+</head>
+<body>
+    
+    <header id="header" class="header" data-aos="fade-down">
+        <div class="container">
+
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo/logo.webp" alt="logo">
+            </a>
+            <a href="index.html" class="logo-sm">
+                <img src="assets/images/logo/logo-sm.webp" alt="logo">
+            </a>
+
+            <nav class="links">
+                <ul>
+                    <li><a href="#home" id="sec">Inicio</a></li>
+                    <li>
+                        <a href="#proyects" id="sec">Proyectos</a>
+                        <span class="material-symbols-outlined">
+                            expand_more
+                        </span>
+                        <div class="tooltip-works">
+                            <ul>
+                                <li>
+                                    <img src="assets/images/grid-proyects/tooltip-mockup-proyect1.webp" width="80px">
+                                    <a id="work-1" href="https://bautistanicoletti.github.io/marina-nicoletti/" target="_blank">Marina Nicoletti</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#skills" id="sec">Habilidades</a></li>
+                    <li><a href="#about" id="sec">Sobre Mí</a></li>
+                    <a class="btn__navS" id="btn-darkL">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </a>
+                </ul>
+            </nav>
+
+            <div class="btn__navGroup">
+                <a href="#contact" class="btn__nav">
+                    Contacto
+                </a>
+                
+                <a class="btn__navS" id="btn-dark">
+                    <ion-icon name="moon" class="moon"></ion-icon>
+                    <ion-icon name="sunny" class="sun"></ion-icon>
+                </a>
+            </div>
+
+            <div class="menu">
+                <div class="menu__profile">
+                    <div class="profile_imgMenu">
+                        <img src="assets/images/profile/perfil-menu.jpg">
+                    </div>
+                    <h3>Bautista Nicoletti</h3>
+                    <p>Web Developer</p>
+                </div>
+                <div class="menu__medias">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/BautistaNicoletti" target="_blank">
+                                <img src="assets/images/social-media/github.webp" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/bautista-franco-nicoletti-9327432b7/" target="_blank">
+                                <img src="assets/images/social-media/linkedin.webp" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://dribbble.com/bautista_nicoletti" target="_blank">
+                                <img src="assets/images/social-media/dribble.webp" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu__section">
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#proyects">Proyectos</a></li>
+                        <li><a href="#skills">Habilidades</a></li>
+                        <li><a href="#about">Sobre Mí</a></li>
+                        <li><a href="#contact">Contacto</a></li><br>
+                        <a class="btn__navS" id="btn-darkM">
+                            <ion-icon name="moon" class="moon"></ion-icon>
+                            <ion-icon name="sunny" class="sun"></ion-icon>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <button class="btn__toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+
+        </div>
+    </header>
+
+<main>
+
+    <!-- Home -->
+
+    <div class="home" id="home">
+        <div class="container">
+            <section class="grid__home">
+
+                <section class="grid__profile box" data-aos="fade-zoom-in">
+                    <div class="bg-profile"></div>
+                    <div class="content__profile">
+                        <div class="top__profile">
+                            <h1 class="text-white">Bautista Nicoletti</h1>
+                            <h3><span class="typed" translate="no"></span></h3>
+                        </div>
+                        <div class="bottom__profile">
+                            <a href="mailto:bautistanicoletti@gmail.com" class="btn__profile">Contáctame
+                            <ion-icon name="send-sharp"></ion-icon>   
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="img__profile" id="profile-img" data-aos="fade-zoom-in">
+                
+                </section>
+
+                <section class="grid__medias box" data-aos="fade-zoom-in">
+                    <div class="btn-medias">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://github.com/BautistaNicoletti">
+                                <img src="assets/images/social-media/github.webp" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/bautista-franco-nicoletti-9327432b7/">
+                                <img src="assets/images/social-media/linkedin.webp" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://dribbble.com/bautista_nicoletti">
+                                <img src="assets/images/social-media/dribble.webp" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+                </section>
+
+                <section class="grid__proyects box" data-aos="fade-up"
+                data-aos-delay="0">
+                    <div class="img-gridProyects">
+                        <!-- Swiper -->
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/grid-proyects/slide-proyect1.png">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/grid-proyects/slide-mobile-proyect-1.png">
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-pagination"></div>
+                                <div class="autoplay-progress">
+                                    <svg viewBox="0 0 48 48">
+                                        <circle cx="24" cy="24" r="20"></circle>
+                                    </svg>
+                                    <span></span>
+                                </div>
+                            </div>
+                    </div>
+
+                    <header class="header__proyects">
+                        <h1>Proyectos</h1>
+                        <div class="place-arrowS">
+                            <a href="#proyects" class="arrow-btn">
+                                <img src="assets/images/icon/arrow.webp">
+                            </a>
+                        </div>
+                    </header>
+                </section>
+
+                <section class="grid__about box" data-aos="fade-up"
+                data-aos-delay="0">
+                    <div class="header__about">
+                        <h1 class="text-white">Sobre Mí</h1>
+                        <a href="#about " class="arrow-btn">
+                            <img src="assets/images/icon/arrow.webp">
+                        </a>
+                    </div>
+                    <p id="aboutText" class="text-grey">
+                        Mi nombre es Bautista Franco Nicoletti. Empecé a programar a mis 14 años de edad y desde entonces evolucioné como freelancer en el desarrollo web.
+                    </p>
+                    <template id="about-text">
+                        <swal-html>
+                            Me especializo en tecnologías como HTML, CSS y JavaScript, creando proyectos personalizados para diversos clientes con el objetivo de potenciar sus negocios en línea.<br><br>
+                            Mi enfoque se centra en desarrollar soluciones efectivas y atractivas que cumplan con las necesidades específicas de cada cliente.
+                        </swal-html>
+                    </template>
+                </section>
+
+                <!-- Proyects -->  
+                <!-- Marina Nicoleti Proyect -->  
+                <div class="first-proyect proyect-popup" id="first-proyect">
+                    <div class="content_proyect-popup">
+                        <ion-icon id="first-proyect-close" class="close_proyect-popup" name="close-circle-outline"></ion-icon>
+                        <header class="header_proyect-popup">
+                            <h3>Marina Nicoletti | Portafolio</h3>
+                            <p>Sitio web realizado para la presentación de un libro autobiográfico escrito por una Profesora de Nivel Primario y Licenciada en Gestión de Inst. Edu.</p>
+                        </header>
+                        <div class="img_proyect-popup">
+                            <div class="tecnologies">
+                                <ul>
+                                    <li><img src="assets/images/tecnologies/icons8-html-100.webp"></li>
+                                    <li><img src="assets/images/tecnologies/icons8-css-100.webp"></li>
+                                    <li><img src="assets/images/tecnologies/icons8-js-100.webp"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <footer class="footer_proyect-popup">
+                            <a class="btn_proyect-popup" target="_blank" href="https://github.com/BautistaNicoletti/marina-nicoletti.git">Ver código <ion-icon name="logo-github"></ion-icon></a>
+                            <a class="btn_proyect-popup" target="_blank" href="https://bautistanicoletti.github.io/marina-nicoletti/">Ir al sitio web<ion-icon name="globe-outline"></ion-icon></a>
+                        </footer>
+                    </div>
+                </div>
+
+                <!-- Marina Nicoleti Mobile Proyect -->  
+                <div class="second-proyect proyect-popup" id="second-proyect">
+                    <div class="content_proyect-popup">
+                        <ion-icon id="second-proyect-close" class="close_proyect-popup" name="close-circle-outline"></ion-icon>
+                        <header class="header_proyect-popup">
+                            <h3>Marina Nicoletti | Mobile</h3>
+                            <p>Sitio web de la docente y escritora "Marina Nicoletti" adaptado para dispositivos móviles.</p>
+                        </header>
+                        <div class="img_proyect-popup">
+                            <div class="tecnologies">
+                                <ul>
+                                    <li><img src="assets/images/tecnologies/icons8-html-100.webp"></li>
+                                    <li><img src="assets/images/tecnologies/icons8-css-100.webp"></li>
+                                    <li><img src="assets/images/tecnologies/icons8-js-100.webp"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <footer class="footer_proyect-popup">
+                            <a class="btn_proyect-popup" target="_blank" href="https://github.com/BautistaNicoletti/marina-nicoletti.git">Ver código <ion-icon name="logo-github"></ion-icon></a>
+                            <a class="btn_proyect-popup" target="_blank" href="https://bautistanicoletti.github.io/marina-nicoletti/">Ir al sitio web<ion-icon name="globe-outline"></ion-icon></a>
+                        </footer>
+                    </div>
+                </div>
+
+                <section class="portfolio box" id="proyects" data-aos="fade-up"
+                data-aos-delay="0">
+
+                    <header class="header__portfolio">
+                    <h1 class="text-white">Portafolio</h1>
+                    </header>
+
+                    <div class="proyects_portfolio">
+        
+                        <article class="proyect">
+                            <div class="img-portfolio">
+                                
+                            </div>
+                            <footer>
+                                <a id="first-proyect-btn">
+                                    Proyecto web
+                                    <span class="material-symbols-outlined link-proyect">
+                                        arrow_forward
+                                        </span>
+                                </a>
+                                <div class="tecnologies">
+                                    <ul>
+                                        <li><img src="assets/images/tecnologies/icons8-html-100.webp"></li>
+                                        <li><img src="assets/images/tecnologies/icons8-css-100.webp"></li>
+                                        <li><img src="assets/images/tecnologies/icons8-js-100.webp"></li>
+                                    </ul>
+                                </div>
+                            </footer>
+                        </article>
+
+                        <article class="proyect">
+                            <div class="img-portfolio">
+                                
+                            </div>
+                            <footer>
+                                <a id="second-proyect-btn" href="#proyects">
+                                    Proyecto web
+                                    <span class="material-symbols-outlined link-proyect">
+                                        arrow_forward
+                                        </span>
+                                </a>
+                                <div class="tecnologies">
+                                    <ul>
+                                        <li><img src="assets/images/tecnologies/icons8-html-100.webp"></li>
+                                        <li><img src="assets/images/tecnologies/icons8-css-100.webp"></li>
+                                        <li><img src="assets/images/tecnologies/icons8-js-100.webp"></li>
+                                    </ul>
+                                </div>
+                            </footer>
+                        </article>
+
+                    </div>
+
+                </section>
+
+                <section class="skills box" id="skills" data-aos="fade-up"
+                data-aos-delay="0">
+                    <div class="container">
+
+                        <header class="header__skills">
+                            <h1 class="text-white">Habilidades</h1>
+                        </header>
+
+                        <div class="skill dev-skill">
+                            <div class="text-skill">
+                                <h1 class="text-white">Desarrollo Web</h1>
+                            </div>
+                            <div class="link-skill">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>React</span>
+                                <span>VS Code</span>
+                                <span>Git</span>
+                                <span>GitHub</span>
+                                <span>Bootstrap</span>
+                                <span>Tailwind</span>
+                            </div>
+                        </div>
+                        <div class="skill design-skill">
+                            <div class="text-skill">
+                                <h1 class="text-white">Diseño Web</h1>
+                            </div>
+                            <div class="link-skill">
+                                <span>Figma</span>
+                                <span>Photoshop</span>
+                                <span>UI/UX Design</span>
+                                <span>Design System</span>
+                                <span>Landing Page</span>
+                                <span>Mobile</span>
+                                <span>Responsive</span>
+                                <span>E-commerce</span>
+                                <span>Portafolio</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="about__img" id="about" data-aos="fade-up"
+                data-aos-delay="0">
+                    <div class="img-boxAbout"></div>
+                </section>
+    
+                <!-- About-Text Popup -->
+                <div class="about-popup" id="about-popup">
+                    <div class="content_about-popup">
+                        <ion-icon id="about-popup-close" class="about-popup-close" name="close-circle-outline"></ion-icon>
+                        <div class="box_textAbout">
+                            
+                            <div class="text-about">
+                                <p>Me encanta estar en actividad y probar nuevos deportes.</p>
+                            </div>
+                            <div class="text-about">
+                                <p>Salgo a correr todas las semanas para despejar la mente.</p>
+                            </div>
+                            <div class="text-about">
+                                <p>En mis tiempos libres toco la guitarra acústica y aprendo nuevas canciones, me gusta escuchar de todo un poco.</p>
+                            </div>
+                            <div class="text-about">
+                                <p>También suelo dibujar, diseñar, leer libros, artículos, etc.</p>
+                            </div>
+                            <div class="text-about">
+                                <p>Me apasiona el emprendimiento y el microaprendisaje.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="about__text box" data-aos="fade-up"
+                data-aos-delay="0">
+                    <header class="header_aboutText">
+                        <h1 class="text-white">Quién Soy</h1>
+                    </header>
+                    <div class="box_textAbout">
+                        <div class="text-about">
+                            <p>Tengo 16 años. Nací un 30 de Octubre, en Las Grutas, Argentina.</p>
+                        </div>
+                        <div class="text-about">
+                            <p>Apasionado por el aprendizaje autodidacta. Formado a través de bootcamps, cursos y tutoriales gratuitos de internet</p>
+                        </div>
+                        <div class="text-about">
+                            <p>Actualmente soy un freenlancer y emprendedor entusiasta por la inteligencia artificial</p>
+                        </div>
+                    </div>
+                    <footer class="btn_footerAbout">
+                        <a id="btn-more-about" href="#more-about">
+                            Ver más
+                            <ion-icon name="add-circle"></ion-icon>
+                        </a>
+                    </footer>
+                </section>
+
+                <section class="contact box" id="contact" data-aos="fade-up"
+                data-aos-delay="0">
+                    <div class="container">
+
+                        <header class="header__contact">
+                    <div class="heading">
+                        <h1 class="text-white">Trabajemos Juntos</h1>
+                        <img src="assets/images/icon/emoji.webp">
+                    </div>
+                    <a href="mailto:bautistanicoletti@gmail.com" class="text-grey">bautistanicoletti@gmail.com</a>
+                        </header>
+
+                        <footer class="contact-btnGroup">
+                        <a href="https://beacons.ai/bautistanicoletti" class="btnContact" target="_blank">Contáctame</a>
+                        <div class="contact-btnMedias">
+                            <ul>
+                                <li>
+                                    <a target="_blank" href="https://github.com/BautistaNicoletti">
+                                        <img src="assets/images/social-media/github.webp" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://www.linkedin.com/in/bautista-franco-nicoletti-9327432b7/">
+                                        <img src="assets/images/social-media/linkedin.webp" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://dribbble.com/bautista_nicoletti">
+                                        <img src="assets/images/social-media/dribble.webp" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            </div>
+                        </footer>
+
+                    </div>
+
+                </section>
+
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <span>Bautista Franco Nicoletti</span>
+        <span>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+    </footer>
+</main>    
+
+
+
+<!-- Script Web -->
+<script src="assets/js/script.js"></script>
+
+<!-- AOS 3000 -->
+<script>
+    AOS.init({
+        duration: 1000
+    });
+</script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+        },
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+        },
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+        },
+        on: {
+        autoplayTimeLeft(s, time, progress) {
+            progressCircle.style.setProperty("--progress", 1 - progress);
+            progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+        }
+        }
+    });
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
