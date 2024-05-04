@@ -90,7 +90,7 @@ profileImg.addEventListener("click", () => {
         text: "Hola!👋 Pasa algo?",
         padding: "20px 0",
         width: "300px",
-        confirmButtonText: "No...nada",
+        confirmButtonText: "No... Nada",
         icon: "",
         backdrop: `
         rgba(0,0,123,0.4)
